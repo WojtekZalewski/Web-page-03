@@ -1,0 +1,54 @@
+@media(max-device-width: 590px) {
+    body {
+        background-size: auto;
+    }
+
+    #open_portoflio {
+        font-size: 48px;
+        padding-top: 132px;
+    }
+
+    #click_open_portfolio {
+        margin: 285px auto auto auto;
+    }
+
+    .fa-arrow-up {
+        font-size: 44px;
+    }
+
+    #click_open {
+        font-size: 25px;
+    }
+
+    section#hero {
+        margin: 130px auto;
+    }
+
+    .hamburger_container .row {
+        margin: 55px auto 0px auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 5px 62px;
+    }
+
+    #hamburger {
+        padding: 10px 65px 10px 55px;
+    }
+
+    #hamburger_up,
+    #hamburger_center,
+    #hamburger_down {
+        width: 35px;
+        height: 4px;
+    }
+
+    .hamburger_container_toggle {
+        position: fixed;
+    }
+
+    .project-box {
+        margin: 35px;
+    }
+}

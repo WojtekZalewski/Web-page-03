@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Wojciech Zalewski" />
+    <meta name="keywords" content="Wojciech Zalewski, portfolio, front end developer, kontakt@wzalewski.pl">
+    <link
+        href="https://fonts.googleapis.com/css?family=Anton|Montserrat:100,200,300,400,500,600,900|Roboto:100,300,400,500,900&display=fallback"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"
+        async>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"
+        async>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"
+        async>
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"
+        async>
+    </script>
+    <link rel="stylesheet" href="styles/styles.css" async>
+    <link rel="stylesheet" href="styles/responsive.css" async>
+    <script src="particles.js" async></script>
+    <script src="scripts/main.js" async></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144747984-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-144747984-1');
+    </script>
+</head>
+
+<body>
+    <div class="skew-bg-up"></div>
+    <div class="skew-bg-down"></div>
+    <span id="open_portoflio">OPEN<br> PORTFOLIO<br>
+        <div id="click_open_portfolio">
+            <i class="fas fa-arrow-up"></i>
+            <span id="click_open">click</span>
+        </div>
+    </span>
+    <div id="mask_loader">
+        <div id="loader"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div class="hamburger_container">
+        <div class="row container-fluid">
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <h1>Portfolio <span>Wojciech Zalewski</span></h1>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div id="hamburger">
+                    <div id="hamburger_up"></div>
+                    <div id="hamburger_center"></div>
+                    <div id="hamburger_down"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hamburger_container_list">
+            <ul class="hamburger_list">
+                <li><i class="fas fa-home"></i>Warsaw, Poland</li>
+                <li><i class="fas fa-phone"></i>+48 793 493 491</li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:kontakt@wzalewski.pl">kontakt@wzalewski.pl</a></li>
+                <a href="https://github.com/wojtekzalewski?tab=repositories" target="_blank">
+                    <div id="mygit_link"><i class="fab fa-github-square"></i>
+                        <li class="git_link">github</li>
+                    </div>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <section id="hero">
+        <div class="main_container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Variables CSS JS</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Clock JS</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Drum kit JS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Angular Shopping-cart</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Angular SpaceApp</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Angular ToDoApp</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">React Tictactoe</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Gallery</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Modern CV</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Canvas game</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Java Script calculator</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Portfolio 2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Bootstrap Sass Project</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Portfolio 1</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 project_box">
+                    <div class="cell">
+                        <div class="cell_mask">Simple portfolio</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer> Wojciech Zalewski &copy; 2019 </footer>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !^on$
+RewriteRule ^(.*)$ https://www.wzalewski.pl/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^www.wzalewski.pl$ [NC]
+RewriteRule ^(.*)$ http://www.wzalewski.pl/$1 [L,R=301]
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+   </IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType text/css "access plus 1 month"
+ </IfModule>
